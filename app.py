@@ -3,7 +3,7 @@ from expense import Expense
 from utils import add_expense, view_expenses
 from analytics import analyze_expenses_df
 from ai_insights import generate_insights
-from finance_api import get_stock_data
+from financial_api import get_stock_data
 from db import create_table
 
 create_table()
